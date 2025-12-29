@@ -1,0 +1,28 @@
+Real-Time-Air-Quality-Pipeline/
+│
+├── src/                        # Source Code
+│   ├── producer.py             # Kafka Producer script
+│   ├── spark_processor.py      # Spark Structured Streaming script
+│   └── monitor_node.py         # System monitoring script (seen in video)
+│
+├── config/                     # Configuration Files (Sanitized)
+│   ├── hadoop/
+│   │   ├── core-site.xml
+│   │   └── hdfs-site.xml
+│   ├── spark/
+│   │   └── spark-defaults.conf
+│   └── kafka/
+│       └── server.properties
+│
+├── sql/                        # Database Scripts
+│   └── schema.sql              # The CREATE TABLE command for Postgres
+│
+├── data/                       # Sample Data
+│   └── sample_openaq.json      # Small dataset for testing
+│
+├── dashboards/                 # Grafana JSON Exports
+│   └── air_quality_dashboard.json
+│
+├── .gitignore                  # Git ignore file (Crucial for security)
+├── LICENSE                     # MIT License
+└── README.md                   # Main documentation

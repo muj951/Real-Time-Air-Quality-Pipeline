@@ -1,0 +1,37 @@
+# --- Python & Environment ---
+__pycache__/
+*.py[cod]
+venv/
+env/
+my_project_env/
+.pytest_cache/
+
+# --- IDE Settings (VS Code, Pycharm) ---
+.vscode/
+.idea/
+
+# --- Spark & Hadoop Logs ---
+spark-warehouse/
+metastore_db/
+derby.log
+*.log
+
+# --- Large Media Files (DO NOT UPLOAD THESE) ---
+*.mp4
+*.mp3
+*.wav
+*.srt
+*.png
+*.jpg
+
+# --- Data & Secrets ---
+data/*.csv
+data/*.parquet
+data/*.json
+*.xlsx
+checkpoints/
+
+# --- Configuration Secrets ---
+# Keep templates, but ignore actual config files containing passwords
+config/secrets.sh
+.env
