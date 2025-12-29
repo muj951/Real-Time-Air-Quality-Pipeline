@@ -39,7 +39,7 @@ Ensure all distributed services are active on the Master node:
 # Start Zookeeper & Kafka
 $KAFKA_HOME/bin/zookeeper-server-start.sh config/zookeeper.properties
 $KAFKA_HOME/bin/kafka-server-start.sh config/server.properties
-
+```
 # Start Hadoop (HDFS & YARN)
 start-dfs.sh
 start-yarn.sh
@@ -59,12 +59,12 @@ Step A: Start the Data Producer This script fetches data from OpenAQ and pushes 
 python3 src/producer.py
 
 Step B: Submit the Spark Job Submit the streaming processor to the Spark cluster. Ensure you include the Kafka and JDBC drivers.
-
+```bash
 spark-submit \
   --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.5.1,org.postgresql:postgresql:42.6.0 \
   --master spark://10.0.0.40:7077 \
   src/spark_processor.py
-  
+  ```
 
 Monitoring:
 
