@@ -80,4 +80,4 @@ Hadoop UI: http://localhost:9870 (HDFS storage verification)
 
 Demo Video Link:
 
-[![Watch the Demo](video_thumbnail.png)](https://youtu.be/NPB28FMmr6I)
+[🎬 Watch the Project Demo Video](https://youtu.be/NPB28FMmr6I)
