@@ -84,4 +84,4 @@ Demo Video Link:
 
 Girhub Repo Link:
 
-[🎬 Click Here to go to gib repo](https://github.com/muj951/Real-Time-Air-Quality-Pipeline)
+[Click Here to go to gib repo](https://github.com/muj951/Real-Time-Air-Quality-Pipeline)
