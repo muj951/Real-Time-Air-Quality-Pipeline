@@ -17,8 +17,12 @@ The project runs on a distributed cluster with the following node configuration:
 | Node Role | IP Address | Service Roles |
 |-----------|------------|---------------|
 | **Master**| `10.0.0.40`| NameNode, ResourceManager, Spark Master, Kafka Broker, Zookeeper, Postgres |
-| **Worker1**| `10.0.0.41`| DataNode, NodeManager, Spark Worker |
-| **Worker2**| `10.0.0.42`| DataNode, NodeManager, Spark Worker |
+
+| **Worker5**| `10.0.0.21`| DataNode, NodeManager, Spark Worker |
+| **Worker4**| `10.0.0.20`| DataNode, NodeManager, Spark Worker |
+| **Worker3**| `10.0.0.39`| DataNode, NodeManager, Spark Worker |
+| **Worker2**| `10.0.0.38`| DataNode, NodeManager, Spark Worker |
+| **Worker1**| `10.0.0.40`| DataNode, NodeManager, Spark Worker |
 
 ### Prerequisites
 * **OS:** Ubuntu 20.04/22.04 LTS
